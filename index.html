@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Socialoton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -11,7 +11,101 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" type="text/css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
           type="text/css">
-    <link rel="stylesheet" href="main.css">
+
+    <style type="text/css">
+
+    	.img-polaroid {
+    		width: 480px;
+    		height: 300px;
+    		border: 0px;
+    	}
+
+			/* Large desktop */
+		  @media (min-width: 980px) { 
+		    body {
+		      padding-top: 60px;
+		    }
+		    .linediv-l {
+		      border-right: 1px white solid;
+		    }
+		    .linediv-r {
+		      border-left: 1px white solid;
+		    }
+		  }
+
+		  /* Landscape phones and down */
+		  @media (max-width: 480px) { 
+		    .copy {
+		      padding: 2.5% 10%;
+		    }
+		    .linediv-l {
+		      border-bottom: 1px white solid;
+		    }
+		    .linediv-r {
+		      border-top: 1px white solid;
+		    }
+		  }
+
+		  /* All form factors */
+
+		  /* Main body and headings */
+		  body{
+		    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		  }
+		  .heading, .subheading {
+		    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+		    text-align: center;
+		  }
+		  p.lead {
+		    padding-top: 1.5%;
+		    font-size: 24px;
+		    line-height: 30px;
+		  }
+		  p {
+		    font-size: 18px;
+		    line-height: 24px;
+		  }
+
+		  /* Video pitch and Action */
+		  .pitch {
+		    padding: 2.5% 0%;
+		  }
+		  .order {
+		    padding: 2% 0%;
+		  }
+		  .actions {
+		    background-color: #343434;
+		    padding: 3% 0%;
+		  }
+		  .video, .thermometer, .order, .social, .statistics {
+		    text-align: center;
+		  }
+		  .statistics h3, .statistics p {
+		    color: white;
+		  }
+
+		  /* Marketing Copy and Footer */
+		  .copy {
+		    padding-top: 2.5%;
+		    padding-bottom: 2.5%;
+		    text-align: justify;
+		  }
+		  .asset {
+		    padding: 2.5% 0%;
+		  }
+		  .footer {
+		    color: #cccccc;
+		    text-align: center;
+		  }
+		  .footer p {
+		    font-size: 11px;
+		  }
+		  .footer a {
+		    color: #ccccff;
+		  }
+
+		</style>
+
     <!-- js -->
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
@@ -27,7 +121,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Bitstarter</a>
+          <a class="brand" href="#">My Bitstarter</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <!-- <li class="active"><a href="#">Home</a></li> -->
@@ -41,42 +135,39 @@
     <div class="container">
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>My Product</h1>
+          <h1>Soical-o-ton</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
 	<div class="span12">
-	  <p class="lead">Think tagline!!!.</p>
+	  <p class="lead">The workout and workout-mates that your heart desires</p>
 	</div>
       </div>
       <div class="row-fluid pitch">
-	<div class="span5 offset1 video">
-	  <img class="img-polaroid" src="http://placehold.it/480x300">
-	</div>
-	<div class="span5 actions">
+	<div class="span8 offset2 actions">
 	  <div class="span8 offset2">
 	    <div class="statistics">
 	      <div class="span4">
 		<div class="linediv-l">
-		  <h3>1000</h3> <p>backers</p>
+		  <h3>1</h3> <p>backer</p>
 		</div>
 	      </div>
 	      <div class="span4">
 		<div class="linediv-c">
-		  <h3>$6000</h3> <p>of $10,000</p>
+		  <h3>$1,000</h3> <p>of $100,000</p>
 		</div>
 	      </div>
 	      <div class="span4">
 		<div class="linediv-r">
-		  <h3>10</h3> <p>days left</p>
+		  <h3>60</h3> <p>days left</p>
 		</div>
 	      </div>
 	    </div>
 	  </div>
 	  <div class="span10 offset1">
 	    <div class="thermometer progress active">
-	      <div class="bar bar-success" style="width: 60%;"></div>
-	      <div class="bar bar-warning" style="width: 40%;"></div>
+	      <div class="bar bar-success" style="width: 10%;"></div>
+	      <div class="bar bar-warning" style="width: 90%;"></div>
 	    </div>
 	  </div>
 	  <div class="span6 offset3 order">
@@ -90,22 +181,30 @@
       </div>
       <div class="row-fluid section1">
 	<div class="span5 offset1 asset">
-	  <img class="img-polaroid" src="http://placehold.it/480x300">
+	  <img class="img-polaroid" src="https://dl-web.dropbox.com/get/images/color.jpg?w=AAD_8Dt0ZzEsl06jjMRYii5ED3R8qQC8s844InaD-uXoRQ">
 	</div>
 	<div class="span5 copy">
 	  <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus, a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada. In facilisis scelerisque turpis sed lacinia. Donec in orci lectus. Donec auctor semper quam, eget rhoncus purus fringilla id. Phasellus id nibh eu risus ultrices adipiscing.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla.
+      <h4>Find your sport-mates and the information you want for any sport and any place.</h4>
+      Have you ever looked for a partner to train with? <br>
+      No matter what's your favorite sport we will help you find your sport soul-mates to train with or to compare your performance to. <br><br>
+      Have you ever visited a new place and was inetrested in information about outdoors routes to jog or bike?<br>
+      Whether you are home or away, we will give you all the information you need to continue your training routine and improve your performance.<br><br>
+      First-hand information about the best places to train are always available on your smart-phone.
 	  </p>
 	</div>
       </div>
       <div class="row-fluid section2">
 	<div class="span5 offset1 copy copy-right">
 	  <p>
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus, a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada. In facilisis scelerisque turpis sed lacinia. Donec in orci lectus. Donec auctor semper quam, eget rhoncus purus fringilla id. Phasellus id nibh eu risus ultrices adipiscing.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla.
+			<h4>We are passionate about sport and about training with whomever is equally passionate.</h4>
+			We are building a unique social application that creates a comprehensive profile of your workout based on data transmitted from ant+/bluetooth enabled gadgets (garmins, 4iiii, nike, etc.). This profile includes your bio-metrics such as heart rate, and any other available information such as type of sport, time of day that you train, or your favorite bike path.<br> By using our application you will get recommendations that complement your training and if you so wish will connect you with people that share your training patterns.<br><br>
+			Enrich your experience in a healthy and fun way.
 	  </p>
 	</div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="https://dl-web.dropbox.com/get/images/bandw.jpg?w=AADyiF-QC8fgUDHxgepJCEN3VUjytA7XeHBoM2fmOPMOEQ">
+
         </div>
       </div>
       <div class="row-fluid faq">
@@ -114,21 +213,21 @@
 	  <div class="accordion" id="accordion2">
 	    <div class="accordion-group">
 	      <div class="accordion-heading">
-		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">What does FAQ stand for?</a>
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">What devices are you supporting?</a>
 	      </div>
 	      <div id="collapseOne" class="accordion-body collapse">
 		<div class="accordion-inner">
-		  Frequently Asked Question.
+		  Currently we are supporting all ant+/bluetooth devices and are first building an iPhone app.
 		</div>
 	      </div>
 	    </div>
 	    <div class="accordion-group">
 	      <div class="accordion-heading">
-		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">What's a Frequently Asked Question?</a>
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Is my information secure?</a>
 	      </div>
 	      <div id="collapseTwo" class="accordion-body collapse">
 		<div class="accordion-inner">
-		  A question which is commonly asked by users.
+		  Yes! The security and privacy of your information is of the outmost importance to us and any personal information is kept confidential and is only accessible by you. Non-identified information, such as running routes, is used to continue to build or vast information-base, but of course only in an anonymous form. 
 		</div>
 	      </div>
 	    </div>
